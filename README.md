@@ -25,10 +25,6 @@ Fully deployed frontend and backend
 Deployement overview :
 React (Vercel) → Node/Express API (Render) → MongoDB Atlas
 
-Env variables-
-MONGO_URI= mongodb+srv://wamanvinit8717:%40Vinit223817@cluster0.v9ekmkx.mongodb.net/inotebook?retryWrites=true&w=majority
-JWT_SECRET= iamvineet$waman
-
 Running locally :
 git clone https://github.com/wamanvinit3817/iNotebook.git
 cd iNotebook

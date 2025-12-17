@@ -1,3 +1,23 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 i{
     cursor : pointer;
 }
@@ -144,30 +164,29 @@ textarea.form-control{
   animation: alertSlideIn 0.4s ease;
 }
 
-/* ICON */
 .alert-icon {
   font-size: 16px;
 }
 
-/* SUCCESS */
+
 .alert-success {
   border-left: 4px solid #FA003F;
   color: #FA003F;
 }
 
-/* DANGER */
+
 .alert-danger {
   border-left: 4px solid #c62828;
   color: #7a0c0c;
 }
 
-/* WARNING */
+
 .alert-warning {
   border-left: 4px solid #ff8f00;
   color: #ff8f00;
 }
 
-/* SLIDE + FADE IN */
+
 @keyframes alertSlideIn {
   from {
     opacity: 0;
@@ -199,6 +218,7 @@ textarea.form-control{
   padding: 20px 0;
   height: fit-content;
   border-top: 1px solid #e0e0e0;
+  
 }
 .classfooter a {
     color: #333;
@@ -223,16 +243,16 @@ textarea.form-control{
   box-shadow:
     0 3px 10px rgba(0, 0, 0, 0.08);
 }
-/* NAVBAR BASE */
+
 .classnav .navbar {
-  background-color: #3d3d3d !important;   /* light grey */
+  background-color: #3d3d3d !important;  
   padding: 10px 24px;
 
   border-bottom: 1px solid #e0e0e0;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
 
-/* BRAND */
+
 .classnav .navbar-brand {
   font-weight: 600;
   font-size: 18px;
@@ -240,7 +260,7 @@ textarea.form-control{
   letter-spacing: 0.3px;
 }
 
-/* NAV LINKS */
+
 .classnav .nav-link {
   color: #444 !important;
   font-weight: 500;
@@ -258,7 +278,7 @@ textarea.form-control{
   font-weight: 600;
 }
 
-/* UNDERLINE ANIMATION */
+
 .classnav .nav-link::after {
   content: "";
   position: absolute;
@@ -275,9 +295,9 @@ textarea.form-control{
   width: 100%;
 }
 
-/* BUTTONS (FIXED READABILITY) */
+
 .classnav .btn-outline-light {
-  color: white;                 /* readable text */
+  color: white;                 
   border-color: #fa003f;
   font-weight: 500;
   background-color: #ffffff;
@@ -288,11 +308,16 @@ textarea.form-control{
   color: black;
 }
 
-/* TOGGLER */
+
 .classnav .navbar-toggler {
   border: none;
+}
+
+.classnav .navbar-toggler-icon {
+  filter: brightness(0) saturate(100%);
 }
 
 .classnav .navbar-toggler:focus {
   box-shadow: none;
 }
+

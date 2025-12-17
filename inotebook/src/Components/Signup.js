@@ -27,7 +27,7 @@ const Signup = () => {
     }
 
 
-    const fetchUrl = `http://localhost:5000/api/auth/createuser`;
+    const fetchUrl = `https://inotebook-backend-ki7k.onrender.com/api/auth/createuser`;
     const response = await fetch(fetchUrl, {
       method: "POST",
       headers: {

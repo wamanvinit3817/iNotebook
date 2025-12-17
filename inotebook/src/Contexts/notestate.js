@@ -18,7 +18,7 @@ const Notestate = (props) => {
   const getAllNotes = async () =>{
     try{
     progressFunc(30);
-    const fetchUrl = `http://localhost:5000/api/notes/fetchallnotes`;
+    const fetchUrl = `https://inotebook-backend-ki7k.onrender.com/api/notes/fetchallnotes`;
     const response = await fetch(fetchUrl, {
       method: "GET",
       headers: {
@@ -50,7 +50,7 @@ let addNote = async (title, description, tag) => {
     progressFunc(30);
  
     const response = await fetch(
-      "http://localhost:5000/api/notes/addnote",
+      "https://inotebook-backend-ki7k.onrender.com/api/notes/addnote",
       {
         method: "POST",
         headers: {
@@ -77,7 +77,7 @@ let addNote = async (title, description, tag) => {
   const deleteNote = async (id) => {
     try{
     progressFunc(30)
-   let url = `http://localhost:5000/api/notes/deletenote/${id}`;
+   let url = `https://inotebook-backend-ki7k.onrender.com/api/notes/deletenote/${id}`;
     const response = await fetch(url, {
       method: "DELETE",
       headers: {
@@ -97,7 +97,7 @@ let addNote = async (title, description, tag) => {
   const editNote = async (id, title, description, tag) => {
     try{
     progressFunc(0)
-    let url = `http://localhost:5000/api/notes/updatenote/${id}`;
+    let url = `https://inotebook-backend-ki7k.onrender.com/api/notes/updatenote/${id}`;
     const response = await fetch(url, {
       method: "PUT",
       headers: {
@@ -120,7 +120,7 @@ let addNote = async (title, description, tag) => {
   }
   };
   const getNote = async (id) =>{
-     let url = `http://localhost:5000/api/notes/getnote/${id}`;
+     let url = `https://inotebook-backend-ki7k.onrender.com/api/notes/getnote/${id}`;
     const response = await fetch(url, {
       method: "GET",
       headers: {

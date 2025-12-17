@@ -17,7 +17,7 @@ const Login = () => {
   const handlesubmit = async (e) => {
     e.preventDefault();
     
-    const fetchUrl = `http://localhost:5000/api/auth/login`;
+    const fetchUrl = `https://inotebook-backend-ki7k.onrender.com/api/auth/login`;
     const response = await fetch(fetchUrl, {
       method: "POST",
       headers: {

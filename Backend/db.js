@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoURI = "mongodb://127.0.0.1:27017/inotebook";
+const mongoURI = process.env.MONGO_URI;
 
 async function connectToMongo() {
   try {
@@ -9,5 +9,5 @@ async function connectToMongo() {
   } catch (err) {
     console.error("MongoDB connection error:", err);
   }
-} 
-module.exports = connectToMongo;  
+}  
+module.exports = connectToMongo;   

@@ -1,0 +1,4 @@
+1.Hashing is a one way function
+2.bcrypt.js for password Hashing
+3.useContext hook and context api for shared info across app
+4.useLocation hook for highlighting the tab where we are now on navbar

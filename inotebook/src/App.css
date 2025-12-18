@@ -219,6 +219,7 @@ textarea.form-control{
   padding: 20px 0;
   height: fit-content;
   border-top: 1px solid #e0e0e0;
+  width:100% !important;
   
 }
 .classfooter a {
@@ -321,4 +322,10 @@ textarea.form-control{
 .classnav .navbar-toggler:focus {
   box-shadow: none;
 }
+
+.classdate{
+    margin-top: -10px;
+    font-size: 12px;
+    color: grey;
+    font-weight: 500;}
 

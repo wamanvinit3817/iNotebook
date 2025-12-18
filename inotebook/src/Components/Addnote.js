@@ -40,7 +40,7 @@ const Addnote = () => {
             <textarea type="text" class="form-control" id="description" name="description"  onChange={onChange} value={note.description}/>
         </div>
         <div class="mb-3">
-            <label htmlFor="tag" class="form-label">Add Tag :</label>
+            <label htmlFor="tag" class="form-label">  Want to add tag ?</label>
             <input type="tag" class="form-control" id="tag" name="tag"  onChange={onChange} value={note.tag}/>
         </div>
        

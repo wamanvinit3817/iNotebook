@@ -21,6 +21,7 @@ const Notes = () => {
             id={note._id}  
             title={note.title}
             description={note.description}
+            date = {note.date}
             tag={note.tag}
           />
         );

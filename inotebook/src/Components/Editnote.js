@@ -44,7 +44,7 @@ const Editnote = () => {
         <form>
           <div class="mb-3">
             <label for="title" class="form-label">
-              Enter new Title for your new note :
+              Enter new Title for your note :
             </label>
             <input
               type="text"
@@ -58,7 +58,7 @@ const Editnote = () => {
           </div>
           <div class="mb-3">
             <label for="description" class="form-label">
-              Enter new description for your new note :
+              Enter new description for your note :
             </label>
             <input
               type="text"
@@ -71,7 +71,7 @@ const Editnote = () => {
           </div>
           <div class="mb-3">
             <label for="tag" class="form-label">
-              Add Tag :
+              Want to change the Tag ?
             </label>
             <input
               type="tag"
